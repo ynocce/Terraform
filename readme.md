@@ -32,9 +32,9 @@ O Terraform é uma ferramenta de *Infrastructure as Code* (IaC) que permite defi
     - **provider_meta:** Esse é um parâmetro avançado usado para passar informações específicas para os provedores que não estão no `provider` normal. Ele permite enviar configurações especiais para alguns provedores que precisam de ajustes extras para funcionar bem.
     
 - **Main Commands:**
-    - **`terraform init`**→ Inicializa o diretório de trabalho, baixando os plugins necessários e preparando o ambiente para rodar os comandos do Terraform.
-    - **`terraform validate`**→ Verifica a configuração dos arquivos para garantir que estão escritos corretamente e sem erros de sintaxe.
-    - **`terraform plan`**→ Gera um plano de execução mostrando quais recursos serão criados, alterados ou destruídos sem realizar alterações de fato.
-    - **`terraform apply`**→ Executa o plano gerado, aplicando as alterações na infraestrutura, criando ou modificando recursos conforme necessário.
-    - **`terraform destroy`**→ Remove todos os recursos gerenciados pela configuração do Terraform, destruindo a infraestrutura criada.
-    - **`terraform fmt`**→ Formata os arquivos de configuração (.tf) de acordo com o padrão do Terraform, organizando o código.
+    - **`terraform init`** → Inicializa o diretório de trabalho, baixando os plugins necessários e preparando o ambiente para rodar os comandos do Terraform.
+    - **`terraform validate`** → Verifica a configuração dos arquivos para garantir que estão escritos corretamente e sem erros de sintaxe.
+    - **`terraform plan`** → Gera um plano de execução mostrando quais recursos serão criados, alterados ou destruídos sem realizar alterações de fato.
+    - **`terraform apply`** → Executa o plano gerado, aplicando as alterações na infraestrutura, criando ou modificando recursos conforme necessário.
+    - **`terraform destroy`** → Remove todos os recursos gerenciados pela configuração do Terraform, destruindo a infraestrutura criada.
+    - **`terraform fmt`** → Formata os arquivos de configuração (.tf) de acordo com o padrão do Terraform, organizando o código.
